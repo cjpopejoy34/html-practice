@@ -1,53 +1,55 @@
 body {
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
-.myname {
-    display: block;
-    color: rgb(218, 214, 174);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.main {
+    margin: 0%;
+    padding: 0%;
 }
 .nav-bar {
+    .myname {
+        display: block;
+        color: rgb(218, 214, 174);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
     opacity: .2;
+    /* ul creates and stands for "unordered list*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #33333300;
+    }
+    /* li is the style for the list*/
+    li {
+        display: inline-flex;
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 100%;
+    }
+    
+    li a:hover {
+        background-color: #21b267;
+    }
 }
 .nav-bar:hover {
     opacity: 1;
 }
-/* ul creates and stands for "unordered list*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #33333300;
-  }
-  /* li is the style for the list*/
-  li {
-    float: right;
-    display: inline;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 100%;
-  }
-  
-  li a:hover {
-    background-color: #21b267;
-  }
-
-  body{
-    margin: 0;
-    padding: 0;
-    font-size: 150%;
-  }
   .Ceme {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
   }
