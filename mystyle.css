@@ -1,3 +1,21 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+.myname {
+    display: block;
+    color: rgb(218, 214, 174);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-bar {
+    opacity: .2;
+}
+.nav-bar:hover {
+    opacity: 1;
+}
+/* ul creates and stands for "unordered list*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,17 +23,19 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+  /* li is the style for the list*/
   li {
-    float: left;
+    float: right;
+    display: inline;
   }
-  
+
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 100%;
   }
   
   li a:hover {
@@ -25,5 +45,5 @@ ul {
   body{
     margin: 0;
     padding: 0;
-    font-size: 200%;
+    font-size: 150%;
   }
