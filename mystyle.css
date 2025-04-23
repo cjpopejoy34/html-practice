@@ -12,6 +12,7 @@ body {
 .nav-bar {
     .myname {
         display: block;
+        float: left;
         color: rgb(218, 214, 174);
         text-align: center;
         padding: 14px 16px;
@@ -19,6 +20,13 @@ body {
     }
     opacity: .2;
     /* ul creates and stands for "unordered list*/
+    ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: left;
+    }
     ul {
         list-style-type: none;
         margin: 0;
