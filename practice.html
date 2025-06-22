@@ -13,7 +13,7 @@
 <body>
     <div class="main">
             <!-- Slideshow container -->
-            <div class="slideshow-container"></div>
+            <div class="slideshow-container">
                 <div class="nav-bar">
                     <ol>
                         <li><a class="myname" href="practice.html">Carter Popejoy</a></li>
@@ -52,7 +52,7 @@
         <script>
             let slideIndex = 0;
             showSlides();
-
+            //eventually apply the mySlides styling to the img ref in css
             function showSlides() {
             let i;
             let slides = document.getElementsByClassName("mySlides");
@@ -70,48 +70,53 @@
             setTimeout(showSlides, 15000); // Change image every 7 seconds
             }
         </script>
-    </div>
-    <div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+        <div class="Portfolio">
+            <h2>
+                <p class="PortHeader">Portfolio</p>
+            </h2>
+            <div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_forest.jpg">
+                            <img src="trevor.jpg" alt="Film" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_lights.jpg">
+                            <img src="bagman.jpeg" alt="Hand Drawn Work" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_mountains.jpg">
+                            <img src="Ceme.jpg" alt="Cemetary" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div style="padding:6px;">
             </div>
         </div>
-
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_forest.jpg">
-                    <img src="trevor.jpg" alt="Film" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_lights.jpg">
-                    <img src="bagman.jpeg" alt="Hand Drawn Work" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_mountains.jpg">
-                    <img src="Ceme.jpg" alt="Cemetary" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="clearfix"></div>
-
-        <div style="padding:6px;">
     </div>
 </body>
 </html>
