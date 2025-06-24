@@ -1,3 +1,16 @@
+.main {
+    background-color: white;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 100px;
+    border-color: red;
+    color: black;
+
+  .myHeader{
+    color: red;
+  }
+}
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -7,15 +20,19 @@ body {
     color: aliceblue;
 }
 img {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
-.main {
-    margin: 0%;
-    padding: 0%;
-}
+
 .nav-bar {
+
+  /*the background color is for testing purposes*/
+  border-style: dotted;
+  border-width: 5px;
+  border-color: yellow;
+  background-color:black;
     .myname {
         display: block;
         float: left;
@@ -69,14 +86,6 @@ img {
   max-width: 100%;
   height: auto;
   position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /* Next & previous buttons */
@@ -131,8 +140,7 @@ img {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  background-color: purple;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -201,3 +209,42 @@ div.desc {
   display: table;
   clear: both;
 }
+
+.Portfolio{
+  padding: 100px;
+  border-style: dashed;
+  border-color: green;
+  border-width: 5px;
+  margin: auto;
+  background-color: white;
+}
+
+/*
+I am using a base measuremet of 300 pixels to really exagerate the spacing to determine what is moving.
+
+Adjusting the margin top for nav bar:
+  That pushes carters name down but leaves the 4 options on the right at the top of the page.
+
+Adjusting the margin bottom for nav bar:
+  that makes the black bar large and keeps all 5 of the nav items at the top of the screen.
+
+Adjusting the margin top for slideshow containter: 
+  That makes the nav bar black box larger and pushes the 5 items to the bottom of that box.
+
+Adjusting the margin bottom for the slideshow container:
+  That pushes the portfolio div down by 300px it fills that space with the black background.
+
+Adjusting the margin top for the portfolio: 
+  That does the same thing as the margin bottom test for the slideshow container.
+
+Adjusting the margin bottom for the portfolio:
+  That adds a 300px black box at the very bottom of the screen.
+
+Adjusting the margin top for the mySlides class: 
+  That pushes the images down 300 pixels.
+
+Adjusting the margin bottom for the mySlides class
+  That pushes the dots down 300 pixels.
+
+I am going to adjust the marigns for the img tag
+*/
